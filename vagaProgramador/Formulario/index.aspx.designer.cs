@@ -60,6 +60,15 @@ namespace vagaProgramador.Formulario
         protected global::System.Web.UI.WebControls.DropDownList ddlEstados;
 
         /// <summary>
+        /// Controle txtOcupacao.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOcupacao;
+
+        /// <summary>
         /// Controle analista.
         /// </summary>
         /// <remarks>
@@ -112,6 +121,15 @@ namespace vagaProgramador.Formulario
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label cv;
+
+        /// <summary>
+        /// Controle txtCurriculo.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtCurriculo;
 
         /// <summary>
         /// Controle btnEnviar.

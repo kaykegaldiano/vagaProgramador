@@ -33,7 +33,7 @@
             <!--Formulário 2-->
             <legend>Dados Profissionais</legend>
             <asp:Label ID="ocupacao" runat="server" Text="Ocupação atual: "></asp:Label>
-            <input id="Text1" type="text" size="20" />
+            <asp:TextBox ID="txtOcupacao" runat="server" Width="300px"></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="cargo" runat="server" Text="cargo: "></asp:Label>
@@ -49,7 +49,8 @@
             Programador PHP
             <br />
             <br />
-            <asp:Label ID="cv" runat="server" Text="Mini currículo: "></asp:Label><textarea id="cv_textarea" rows="10" cols="30"></textarea>
+            <asp:Label ID="cv" runat="server" Text="Mini currículo: "></asp:Label>
+            <asp:TextBox ID="txtCurriculo" runat="server" Columns="30" Rows="10" TextMode="MultiLine"></asp:TextBox>
         </fieldset>
         <br />
         <asp:Button ID="btnEnviar" runat="server" Text="Salvar" OnClick="btnEnviar_Click1" />
