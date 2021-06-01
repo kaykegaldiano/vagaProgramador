@@ -13,10 +13,12 @@
         <fieldset border="1" name="form1" id="form1">
             <!--Formulário 1-->
             <legend>Dados Pessoais</legend>
-            <asp:Label ID="nome" runat="server" Text="Label">Nome: <input id="nome_input" type="text" size="60"/>*</asp:Label>
+            <asp:Label ID="nome" runat="server" Text="Nome: "></asp:Label>
+            <input  id="nome_input" value="<%# nome1 %>" type="text" size="60"/> *
             <br />
             <br />
-            <asp:Label ID="endereco" runat="server" Text="Label">Endereço: <input id="endereco_input" type="text" size="90"/>*</asp:Label>
+            <asp:Label ID="endereco" runat="server" Text="Label">Endereço: </asp:Label>
+            <input id="endereco_input" type="text" size="90"/>*
             <br />
             <br />
             <asp:Label ID="cidade" runat="server" Text="Label">Cidade: <input id="cidade_input" type="text" size="20"/>*</asp:Label>
