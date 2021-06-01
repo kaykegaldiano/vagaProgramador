@@ -13,18 +13,18 @@
         <fieldset>
             <!--Formulário 1-->
             <legend>Dados Pessoais</legend>
-            <asp:Label ID="nome" runat="server" Text="Nome: "></asp:Label>
-            <asp:TextBox ID="nome_input" runat="server" Width="300px"></asp:TextBox>*
+            <asp:Label ID="lblNome" runat="server" Text="Nome: "></asp:Label>
+            <asp:TextBox ID="txtNome" runat="server" Width="300px"></asp:TextBox>*
             <br />
             <br />
-            <asp:Label ID="endereco" runat="server" Text="Endereço: "></asp:Label>
-            <asp:TextBox ID="endereco_input" runat="server" Width="300px"></asp:TextBox>*
+            <asp:Label ID="lblEndereco" runat="server" Text="Endereço: "></asp:Label>
+            <asp:TextBox ID="txtEndereco" runat="server" Width="300px"></asp:TextBox>*
             <br /> <br />
-            <asp:Label ID="cidade" runat="server" Text="Cidade: "></asp:Label>
-            <asp:TextBox ID="cidade_input" runat="server" Width="300px"></asp:TextBox>*
+            <asp:Label ID="lblCidade" runat="server" Text="Cidade: "></asp:Label>
+            <asp:TextBox ID="txtCidade" runat="server" Width="300px"></asp:TextBox>*
             <br />
             <br />
-            <asp:Label ID="estado" runat="server" Text="Label">Estado: </asp:Label>
+            <asp:Label ID="lblEstado" runat="server" Text="Label">Estado: </asp:Label>
             <asp:DropDownList ID="ddlEstados" runat="server"></asp:DropDownList>
         </fieldset>
         <br />
@@ -32,24 +32,24 @@
         <fieldset>
             <!--Formulário 2-->
             <legend>Dados Profissionais</legend>
-            <asp:Label ID="ocupacao" runat="server" Text="Ocupação atual: "></asp:Label>
+            <asp:Label ID="lblOcupacao" runat="server" Text="Ocupação atual: "></asp:Label>
             <asp:TextBox ID="txtOcupacao" runat="server" Width="300px"></asp:TextBox>
             <br />
             <br />
-            <asp:Label ID="cargo" runat="server" Text="cargo: "></asp:Label>
-            <asp:Label ID="analista" runat="server" Text=""></asp:Label><input id="analista_checkbox" type="checkbox" checked="checked" />
+            <asp:Label ID="lblCargo" runat="server" Text="cargo: "></asp:Label>
+            <asp:Label ID="lblAnalista" runat="server" Text=""></asp:Label><input id="analista_checkbox" type="checkbox" checked="checked" />
             Analista de sistemas   |   
-            <asp:Label ID="dba" runat="server" Text=""></asp:Label><input id="dba_checkbox" type="checkbox" />
+            <asp:Label ID="lblDba" runat="server" Text=""></asp:Label><input id="dba_checkbox" type="checkbox" />
             DBA   |   
-            <asp:Label ID="aspnet" runat="server" Text=""></asp:Label><input id="aspnet_checkbox" type="checkbox" />
+            <asp:Label ID="lblAspnet" runat="server" Text=""></asp:Label><input id="aspnet_checkbox" type="checkbox" />
             Programador ASP.NET  |   
-            <asp:Label ID="csharp" runat="server" Text=""></asp:Label><input id="csharp_checkbox" type="checkbox" />
+            <asp:Label ID="lblCsharp" runat="server" Text=""></asp:Label><input id="csharp_checkbox" type="checkbox" />
             Programador C#   |   
-            <asp:Label ID="php" runat="server" Text=""></asp:Label><input id="php_checkbox" type="checkbox" />
+            <asp:Label ID="lblPhp" runat="server" Text=""></asp:Label><input id="php_checkbox" type="checkbox" />
             Programador PHP
             <br />
             <br />
-            <asp:Label ID="cv" runat="server" Text="Mini currículo: "></asp:Label>
+            <asp:Label ID="lblCv" runat="server" Text="Mini currículo: "></asp:Label>
             <asp:TextBox ID="txtCurriculo" runat="server" Columns="30" Rows="10" TextMode="MultiLine"></asp:TextBox>
         </fieldset>
         <br />

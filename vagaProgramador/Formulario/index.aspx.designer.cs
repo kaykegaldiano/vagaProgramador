@@ -24,31 +24,67 @@ namespace vagaProgramador.Formulario
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controle nome_input.
+        /// Controle lblNome.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox nome_input;
+        protected global::System.Web.UI.WebControls.Label lblNome;
 
         /// <summary>
-        /// Controle endereco_input.
+        /// Controle txtNome.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox endereco_input;
+        protected global::System.Web.UI.WebControls.TextBox txtNome;
 
         /// <summary>
-        /// Controle cidade_input.
+        /// Controle lblEndereco.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox cidade_input;
+        protected global::System.Web.UI.WebControls.Label lblEndereco;
+
+        /// <summary>
+        /// Controle txtEndereco.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtEndereco;
+
+        /// <summary>
+        /// Controle lblCidade.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCidade;
+
+        /// <summary>
+        /// Controle txtCidade.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtCidade;
+
+        /// <summary>
+        /// Controle lblEstado.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblEstado;
 
         /// <summary>
         /// Controle ddlEstados.
@@ -60,6 +96,15 @@ namespace vagaProgramador.Formulario
         protected global::System.Web.UI.WebControls.DropDownList ddlEstados;
 
         /// <summary>
+        /// Controle lblOcupacao.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOcupacao;
+
+        /// <summary>
         /// Controle txtOcupacao.
         /// </summary>
         /// <remarks>
@@ -69,58 +114,67 @@ namespace vagaProgramador.Formulario
         protected global::System.Web.UI.WebControls.TextBox txtOcupacao;
 
         /// <summary>
-        /// Controle analista.
+        /// Controle lblCargo.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label analista;
+        protected global::System.Web.UI.WebControls.Label lblCargo;
 
         /// <summary>
-        /// Controle dba.
+        /// Controle lblAnalista.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label dba;
+        protected global::System.Web.UI.WebControls.Label lblAnalista;
 
         /// <summary>
-        /// Controle aspnet.
+        /// Controle lblDba.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label aspnet;
+        protected global::System.Web.UI.WebControls.Label lblDba;
 
         /// <summary>
-        /// Controle csharp.
+        /// Controle lblAspnet.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label csharp;
+        protected global::System.Web.UI.WebControls.Label lblAspnet;
 
         /// <summary>
-        /// Controle php.
+        /// Controle lblCsharp.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label php;
+        protected global::System.Web.UI.WebControls.Label lblCsharp;
 
         /// <summary>
-        /// Controle cv.
+        /// Controle lblPhp.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label cv;
+        protected global::System.Web.UI.WebControls.Label lblPhp;
+
+        /// <summary>
+        /// Controle lblCv.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCv;
 
         /// <summary>
         /// Controle txtCurriculo.
