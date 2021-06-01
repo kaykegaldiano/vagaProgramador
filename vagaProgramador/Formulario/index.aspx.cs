@@ -9,8 +9,13 @@ namespace vagaProgramador.Formulario
 {
     public partial class index : System.Web.UI.Page
     {
-        public string nome1;
-        public string endereco1;
+        public string nome;
+        public string endereco;
+        public string cidade;
+        public string estado;
+        public string ocupacao;
+        public string cargo;
+        public string curriculo;
 
         protected void Page_Load(object sender, EventArgs e)
         {
