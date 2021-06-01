@@ -5,7 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <title>Cadastro Funcionário</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -14,7 +15,7 @@
             <!--Formulário 1-->
             <legend>Dados Pessoais</legend>
             <asp:Label ID="nome" runat="server" Text="Nome: "></asp:Label>
-            <input  id="nome_input" value="<%# nome1 %>" type="text" size="60"/> *
+            <input  id="nome_input" type="text" size="60"/> *
             <br />
             <br />
             <asp:Label ID="endereco" runat="server" Text="Endereço: "></asp:Label>
