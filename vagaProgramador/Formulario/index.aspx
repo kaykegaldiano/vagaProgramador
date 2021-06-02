@@ -36,25 +36,20 @@
             <asp:TextBox ID="txtOcupacao" runat="server" Width="300px"></asp:TextBox>
             <br />
             <br />
-            <asp:Label ID="lblCargo" runat="server" Text="cargo: "></asp:Label>
-            <asp:Label ID="lblAnalista" runat="server" Text=""></asp:Label><input id="analista_checkbox" type="checkbox" checked="checked" />
-            Analista de sistemas   |   
-            <asp:Label ID="lblDba" runat="server" Text=""></asp:Label><input id="dba_checkbox" type="checkbox" />
-            DBA   |   
-            <asp:Label ID="lblAspnet" runat="server" Text=""></asp:Label><input id="aspnet_checkbox" type="checkbox" />
-            Programador ASP.NET  |   
-            <asp:Label ID="lblCsharp" runat="server" Text=""></asp:Label><input id="csharp_checkbox" type="checkbox" />
-            Programador C#   |   
-            <asp:Label ID="lblPhp" runat="server" Text=""></asp:Label><input id="php_checkbox" type="checkbox" />
-            Programador PHP
+            <asp:Label ID="lblCargo" runat="server" Text="Cargo Pretendido: "></asp:Label>
+            <asp:RadioButton ID="radAnalista" runat="server" Checked="True" Text="Analista de sistemas" GroupName="cargos" />
+            <asp:RadioButton ID="radDBA" runat="server" Text="DBA" GroupName="cargos" />
+            <asp:RadioButton ID="radASP" runat="server" Text="Programador ASP.NET" GroupName="cargos" />
+            <asp:RadioButton ID="radCSharp" runat="server" Text="Programador C#" GroupName="cargos" />
+            <asp:RadioButton ID="radPHP" runat="server" Text="Programador PHP" GroupName="cargos" />
             <br />
             <br />
-            <asp:Label ID="lblCv" runat="server" Text="Mini currículo: "></asp:Label>
-            <asp:TextBox ID="txtCurriculo" runat="server" Columns="30" Rows="10" TextMode="MultiLine"></asp:TextBox>
+            <asp:Label ID="lblCV" runat="server" Text="Mini Currículo: "></asp:Label>
+            <asp:TextBox ID="txtCurriculo" runat="server" Columns="30" Rows="10" TextMode="MultiLine">Sou analista de sistemas...</asp:TextBox>
         </fieldset>
         <br />
         <asp:Button ID="btnEnviar" runat="server" Text="Salvar" OnClick="btnEnviar_Click1" />
-        <asp:Button ID="btnExibir" runat="server" Text="Exibir" />
+        <asp:Button ID="btnExibir" runat="server" Text="Exibir" OnClick="btnExibir_Click" />
         <input id="btnApagar" type="reset" value="Apagar" />
         <br />
         <br />

@@ -123,58 +123,58 @@ namespace vagaProgramador.Formulario
         protected global::System.Web.UI.WebControls.Label lblCargo;
 
         /// <summary>
-        /// Controle lblAnalista.
+        /// Controle radAnalista.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAnalista;
+        protected global::System.Web.UI.WebControls.RadioButton radAnalista;
 
         /// <summary>
-        /// Controle lblDba.
+        /// Controle radDBA.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDba;
+        protected global::System.Web.UI.WebControls.RadioButton radDBA;
 
         /// <summary>
-        /// Controle lblAspnet.
+        /// Controle radASP.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAspnet;
+        protected global::System.Web.UI.WebControls.RadioButton radASP;
 
         /// <summary>
-        /// Controle lblCsharp.
+        /// Controle radCSharp.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCsharp;
+        protected global::System.Web.UI.WebControls.RadioButton radCSharp;
 
         /// <summary>
-        /// Controle lblPhp.
+        /// Controle radPHP.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPhp;
+        protected global::System.Web.UI.WebControls.RadioButton radPHP;
 
         /// <summary>
-        /// Controle lblCv.
+        /// Controle lblCV.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCv;
+        protected global::System.Web.UI.WebControls.Label lblCV;
 
         /// <summary>
         /// Controle txtCurriculo.

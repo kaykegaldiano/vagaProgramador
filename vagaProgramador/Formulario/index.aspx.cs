@@ -49,5 +49,41 @@ namespace vagaProgramador.Formulario
         {
             lblResultado.Text = "<h2>Dados salvos com sucesso!</h2>";
         }
+
+        protected void btnExibir_Click(object sender, EventArgs e)
+        {
+            nome = txtNome.Text;
+            endereco = txtEndereco.Text;
+            cidade = txtCidade.Text;
+            estado = ddlEstados.Text;
+            ocupacao = txtOcupacao.Text;
+            curriculo = txtCurriculo.Text;
+
+            lblResultado.Text = $"<strong>Nome:</strong> {nome}<br>" +
+                                $"<strong>Endereço:</strong> {endereco}<br>" +
+                                $"<strong>Cidade:</strong> {cidade}<br>" +
+                                $"<strong>Estado:</strong> {estado}<br>" +
+                                $"<strong>Ocupação Atual:</strong> {ocupacao}<br>" +
+                                $"<strong>Cargo:</strong> {getCargo()}<br>" +
+                                $"<strong>Currículo:</strong> {curriculo}";
+        }
+
+        protected string getCargo()
+        {
+            if (radAnalista.Checked)
+                cargo = radAnalista.Text;
+            else if (radDBA.Checked)
+                cargo = radDBA.Text;
+            else if (radASP.Checked)
+
+                cargo = radASP.Text;
+            else if (radCSharp.Checked)
+
+                cargo = radCSharp.Text;
+            else
+                cargo = radPHP.Text;
+
+            return cargo;
+        }
     }
 }
