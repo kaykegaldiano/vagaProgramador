@@ -50,7 +50,7 @@
         <br />
         <asp:Button ID="btnEnviar" runat="server" Text="Salvar" OnClick="btnEnviar_Click1" />
         <asp:Button ID="btnExibir" runat="server" Text="Exibir" OnClick="btnExibir_Click" />
-        <input id="btnApagar" type="reset" value="Apagar" />
+        <asp:Button ID="btnApagar" runat="server" Text="Apagar" OnClick="btnApagar_Click" />
         <br />
         <br />
         <asp:Label ID="lblResultado" runat="server" Text=""></asp:Label>

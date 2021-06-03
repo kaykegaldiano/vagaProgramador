@@ -41,6 +41,8 @@ namespace vagaProgramador.Formulario
                 // Atribuir o conteudo da lista para o dropdown
                 ddlEstados.DataSource = o_lstEstados;
 
+
+
                 DataBind();
             }
         }
@@ -75,15 +77,25 @@ namespace vagaProgramador.Formulario
             else if (radDBA.Checked)
                 cargo = radDBA.Text;
             else if (radASP.Checked)
-
                 cargo = radASP.Text;
             else if (radCSharp.Checked)
-
                 cargo = radCSharp.Text;
             else
                 cargo = radPHP.Text;
 
             return cargo;
+        }
+
+        protected void btnApagar_Click(object sender, EventArgs e)
+        {
+            txtNome.Text = "";
+            txtEndereco.Text = "";
+            txtCidade.Text = "";
+            ddlEstados.SelectedValue = "Selecione um estado";
+            txtOcupacao.Text = "";
+            //radAnalista.Checked = true;
+            txtCurriculo.Text = "";
+            lblResultado.Text = "";
         }
     }
 }
