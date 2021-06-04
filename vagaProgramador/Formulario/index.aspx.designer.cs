@@ -213,6 +213,15 @@ namespace vagaProgramador.Formulario
         protected global::System.Web.UI.WebControls.Button btnApagar;
 
         /// <summary>
+        /// Controle Panel1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel Panel1;
+
+        /// <summary>
         /// Controle lblResultado.
         /// </summary>
         /// <remarks>

@@ -49,6 +49,7 @@ namespace vagaProgramador.Formulario
 
         protected void btnEnviar_Click1(object sender, EventArgs e)
         {
+
             lblResultado.Text = "<h2>Dados salvos com sucesso!</h2>";
         }
 
@@ -93,9 +94,19 @@ namespace vagaProgramador.Formulario
             txtCidade.Text = "";
             ddlEstados.SelectedValue = "Selecione um estado";
             txtOcupacao.Text = "";
-            //radAnalista.Checked = true;
+            radAnalista.Checked = true;
             txtCurriculo.Text = "";
             lblResultado.Text = "";
+            //voltaChecked();
+        }
+
+        protected void voltaChecked()
+        {
+            if (radDBA.Checked || radCSharp.Checked || radASP.Checked || radPHP.Checked) 
+            {
+                
+            }
+
         }
     }
 }

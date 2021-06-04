@@ -1,0 +1,32 @@
+﻿
+
+fieldset
+{
+    background-color:#bbaeae;
+    border-radius:8px;
+}
+input,textarea
+{
+    border-radius:8px;
+}
+
+.btn 
+{
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+#btnEnviar {
+    background-color: limegreen;
+    font-weight: bold;
+}
+
+#btnExibir {
+    background-color: skyblue;
+    font-weight: bold;
+}
+
+#btnApagar {
+    background-color: lightcoral;
+    font-weight: bold;
+}
