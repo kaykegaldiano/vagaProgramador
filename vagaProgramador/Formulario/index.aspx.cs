@@ -49,8 +49,14 @@ namespace vagaProgramador.Formulario
 
         protected void btnEnviar_Click1(object sender, EventArgs e)
         {
-
-            lblResultado.Text = "<h2>Dados salvos com sucesso!</h2>";
+            if (txtNome.Text == "" || txtEndereco.Text == "" || txtCidade.Text == "" || ddlEstados.SelectedValue == "Selecione um estado")
+            {
+                lblResultado.Text = "<h2>Dados incompletos!</h2>";
+            }
+            else
+            {
+                lblResultado.Text = "<h2>Dados salvos com sucesso!</h2>";
+            }
         }
 
         protected void btnExibir_Click(object sender, EventArgs e)
@@ -62,13 +68,21 @@ namespace vagaProgramador.Formulario
             ocupacao = txtOcupacao.Text;
             curriculo = txtCurriculo.Text;
 
-            lblResultado.Text = $"<strong>Nome:</strong> {nome}<br>" +
-                                $"<strong>Endereço:</strong> {endereco}<br>" +
-                                $"<strong>Cidade:</strong> {cidade}<br>" +
-                                $"<strong>Estado:</strong> {estado}<br>" +
-                                $"<strong>Ocupação Atual:</strong> {ocupacao}<br>" +
-                                $"<strong>Cargo:</strong> {getCargo()}<br>" +
-                                $"<strong>Currículo:</strong> {curriculo}";
+            if (txtNome.Text == "" || txtEndereco.Text == "" || txtCidade.Text == "" || ddlEstados.SelectedValue == "Selecione um estado")
+            {
+                lblResultado.Text = "<h2>Dados incompletos!</h2>";
+            }
+            else
+            {
+                lblResultado.Text = $"<strong>Nome:</strong> {nome}<br>" +
+                                    $"<strong>Endereço:</strong> {endereco}<br>" +
+                                    $"<strong>Cidade:</strong> {cidade}<br>" +
+                                    $"<strong>Estado:</strong> {estado}<br>" +
+                                    $"<strong>Ocupação Atual:</strong> {ocupacao}<br>" +
+                                    $"<strong>Cargo:</strong> {getCargo()}<br>" +
+                                    $"<strong>Currículo:</strong> {curriculo}";
+            }
+
         }
 
         protected string getCargo()
@@ -89,24 +103,26 @@ namespace vagaProgramador.Formulario
 
         protected void btnApagar_Click(object sender, EventArgs e)
         {
+            voltaChecked();
             txtNome.Text = "";
             txtEndereco.Text = "";
             txtCidade.Text = "";
             ddlEstados.SelectedValue = "Selecione um estado";
             txtOcupacao.Text = "";
-            radAnalista.Checked = true;
             txtCurriculo.Text = "";
             lblResultado.Text = "";
-            //voltaChecked();
         }
 
         protected void voltaChecked()
         {
-            if (radDBA.Checked || radCSharp.Checked || radASP.Checked || radPHP.Checked) 
+            if (radDBA.Checked || radCSharp.Checked || radASP.Checked || radPHP.Checked)
             {
-                
+                radDBA.Checked = false;
+                radASP.Checked = false;
+                radCSharp.Checked = false;
+                radPHP.Checked = false;
+                radAnalista.Checked = true;
             }
-
         }
     }
 }

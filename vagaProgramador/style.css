@@ -1,0 +1,54 @@
+﻿fieldset {
+    background-color: #bbaeae;
+    border-radius: 8px;
+}
+
+input, textarea {
+    border-radius: 8px;
+    border-color: #000;
+}
+
+.btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+#btnEnviar {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+#btnEnviar:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+#btnExibir {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#btnExibir:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+#btnApagar {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+#btnApagar:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}

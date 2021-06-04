@@ -6,9 +6,10 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Cadastro Funcionário</title>
-    <link rel="stylesheet" href="../App_Themes/CSS/style.css" />
+    <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
+    <h1>Trabalhe Conosco</h1>
     <form id="form1" runat="server">
         <fieldset>
             <!--Formulário 1-->
@@ -48,12 +49,9 @@
             <asp:TextBox ID="txtCurriculo" runat="server" Columns="30" Rows="10" TextMode="MultiLine">Sou analista de sistemas...</asp:TextBox>
         </fieldset>
         <br />
-
-        <div class="btn">
-        <asp:Button ID="btnEnviar" runat="server" Text="Salvar" OnClick="btnEnviar_Click1" />
-        <asp:Button ID="btnExibir" runat="server" Text="Exibir" OnClick="btnExibir_Click" />
-        <asp:Button ID="btnApagar" runat="server" Text="Apagar" OnClick="btnApagar_Click" />
-        </div>
+        <asp:Button ID="btnEnviar" runat="server" Text="Salvar" OnClick="btnEnviar_Click1" CssClass="btn" />
+        <asp:Button ID="btnExibir" runat="server" Text="Exibir" OnClick="btnExibir_Click" CssClass="btn" />
+        <asp:Button ID="btnApagar" runat="server" Text="Apagar" OnClick="btnApagar_Click" CssClass="btn" />
         <br />
         <br />
         <asp:Panel ID="Panel1" runat="server">
