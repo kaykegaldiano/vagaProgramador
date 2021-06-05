@@ -15,18 +15,18 @@
             <!--Formulário 1-->
             <!--<legend>Dados Pessoais</legend>-->
             <asp:Label ID="lblNome" runat="server" Text="Nome: "></asp:Label>
-            <asp:TextBox ID="txtNome" runat="server" Width="300px"></asp:TextBox>*
+            <asp:TextBox ID="txtNome" runat="server" Width="300px"></asp:TextBox><span class="asterisc"> *</span>
             <br />
             <br />
             <asp:Label ID="lblEndereco" runat="server" Text="Endereço: "></asp:Label>
-            <asp:TextBox ID="txtEndereco" runat="server" Width="300px"></asp:TextBox>*
+            <asp:TextBox ID="txtEndereco" runat="server" Width="400px"></asp:TextBox><span class="asterisc"> *</span>
             <br /> <br />
             <asp:Label ID="lblCidade" runat="server" Text="Cidade: "></asp:Label>
-            <asp:TextBox ID="txtCidade" runat="server" Width="300px"></asp:TextBox>*
+            <asp:TextBox ID="txtCidade" runat="server" Width="200px"></asp:TextBox><span class="asterisc"> *</span>
             <br />
             <br />
             <asp:Label ID="lblEstado" runat="server" Text="Label">Estado: </asp:Label>
-            <asp:DropDownList ID="ddlEstados" runat="server"></asp:DropDownList>
+            <asp:DropDownList ID="ddlEstados" runat="server"></asp:DropDownList><span class="asterisc"> *</span>
         </fieldset>
         <br />
         <br />
@@ -46,7 +46,7 @@
             <br />
             <br />
             <asp:Label ID="lblCV" runat="server" Text="Mini Currículo: "></asp:Label>
-            <asp:TextBox ID="txtCurriculo" runat="server" Columns="30" Rows="10" TextMode="MultiLine">Sou analista de sistemas...</asp:TextBox>
+            <asp:TextBox ID="txtCurriculo" runat="server" Columns="90" Rows="10" TextMode="MultiLine">Sou analista de sistemas...</asp:TextBox>
         </fieldset>
         <br />
         <asp:Button ID="btnEnviar" runat="server" Text="Salvar" OnClick="btnEnviar_Click1" CssClass="btn" />
@@ -54,8 +54,9 @@
         <asp:Button ID="btnApagar" runat="server" Text="Apagar" OnClick="btnApagar_Click" CssClass="btn" />
         <br />
         <br />
+        <hr />
         <asp:Panel ID="Panel1" runat="server">
-            <asp:Label ID="lblResultado" runat="server" Text=""></asp:Label>
+                <asp:Label ID="lblResultado" runat="server" Text=""></asp:Label>
         </asp:Panel>
     </form>
 </body>

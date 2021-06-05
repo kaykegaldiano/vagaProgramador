@@ -1,11 +1,21 @@
-﻿fieldset {
-    background-color: #bbaeae;
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+fieldset {
+    background-color: rgb(187 187 187);
     border-radius: 8px;
+    box-shadow: -1px -1px 4px 1px rgba(108 100 100);
+    padding: initial;
+    padding: 15px 10px;
 }
 
 input, textarea {
     border-radius: 8px;
     border-color: #000;
+    border: 1px solid #000;
 }
 
 .btn {
@@ -51,4 +61,21 @@ input, textarea {
     color: #fff;
     background-color: #c82333;
     border-color: #bd2130;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.asterisc {
+    color: rgb(255 0 0);
+    font-weight: bold;
+}
+
+#lblNome, #lblEndereco, #lblCidade, #lblEstado, #lblOcupacao, #lblCargo, #lblCV {
+    font-weight: bold;
+}
+
+select{
+    border-radius: 8px;
 }
